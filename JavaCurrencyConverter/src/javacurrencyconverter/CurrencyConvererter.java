@@ -41,6 +41,35 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         "YER",
         "ZWD"        
     };
+    
+//        double argentinePesos =444.86;
+//        double brazilianReais =6.30;
+//        double canadianDollars =1.71;
+//        double dominicanPesos =72.55;
+//        double ecuadorUsDollars =1.27;
+//        double franceEuros =1.16;
+//        double germanyEuros =1.16;
+//        double haitianGourdes =174.15;
+//        double irelandEuros =1.16;
+//        double japaneseYen =184.98;
+//        double kenyanShillings =182.89;
+//        double LYD =;
+//        double MXN =;
+//        double EUR4 =1.16;
+//        double OMR =;
+//        double PYG =;
+//        double QAR =;
+//        double RWF =;
+//        double RSD =;
+//        double KRW =;
+//        double THB =;
+//        double TRY =;
+//        double UAH =;
+//        double USD =1.27;
+//        double VND =;
+//        double MAD =;
+//        double YER =;
+//        double ZWD =;
 
     /**
      * Creates new form CurrencyConvererter
@@ -240,6 +269,8 @@ public class CurrencyConvererter extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // Convert Currency
+        double amountToChange = Double.parseDouble(t1.getText());
+        double amountInPounds = 0.0;
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
