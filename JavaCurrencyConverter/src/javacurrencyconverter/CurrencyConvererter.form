@@ -151,36 +151,32 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="29">
+              <StringArray count="25">
                 <StringItem index="0" value="Choose One..."/>
                 <StringItem index="1" value="Argentina"/>
                 <StringItem index="2" value="Brazil"/>
                 <StringItem index="3" value="Canada"/>
                 <StringItem index="4" value="Dominican Republic"/>
-                <StringItem index="5" value="Ecuador"/>
-                <StringItem index="6" value="France"/>
-                <StringItem index="7" value="Germany"/>
-                <StringItem index="8" value="Haiti"/>
-                <StringItem index="9" value="Ireland"/>
-                <StringItem index="10" value="Japan"/>
-                <StringItem index="11" value="Kenya"/>
-                <StringItem index="12" value="Libya"/>
-                <StringItem index="13" value="Mexico"/>
-                <StringItem index="14" value="Netherlands"/>
-                <StringItem index="15" value="Oman"/>
-                <StringItem index="16" value="Paraguay"/>
-                <StringItem index="17" value="Qatar"/>
-                <StringItem index="18" value="Rwanda"/>
-                <StringItem index="19" value="Serbia"/>
-                <StringItem index="20" value="South Korea"/>
-                <StringItem index="21" value="Thailand"/>
-                <StringItem index="22" value="Turkey"/>
-                <StringItem index="23" value="Ukraine"/>
-                <StringItem index="24" value="United States"/>
-                <StringItem index="25" value="Vietnam"/>
-                <StringItem index="26" value="Western Sahara"/>
-                <StringItem index="27" value="Yemen"/>
-                <StringItem index="28" value="Zimbabwe"/>
+                <StringItem index="5" value="France"/>
+                <StringItem index="6" value="Haiti"/>
+                <StringItem index="7" value="Japan"/>
+                <StringItem index="8" value="Kenya"/>
+                <StringItem index="9" value="Libya"/>
+                <StringItem index="10" value="Mexico"/>
+                <StringItem index="11" value="Oman"/>
+                <StringItem index="12" value="Paraguay"/>
+                <StringItem index="13" value="Qatar"/>
+                <StringItem index="14" value="Rwanda"/>
+                <StringItem index="15" value="Serbia"/>
+                <StringItem index="16" value="South Korea"/>
+                <StringItem index="17" value="Thailand"/>
+                <StringItem index="18" value="Turkey"/>
+                <StringItem index="19" value="Ukraine"/>
+                <StringItem index="20" value="United States"/>
+                <StringItem index="21" value="Vietnam"/>
+                <StringItem index="22" value="Western Sahara"/>
+                <StringItem index="23" value="Yemen"/>
+                <StringItem index="24" value="Zimbabwe"/>
               </StringArray>
             </Property>
           </Properties>
@@ -197,36 +193,32 @@
               <Font name="Segoe UI" size="14" style="1"/>
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="29">
+              <StringArray count="25">
                 <StringItem index="0" value="Choose One..."/>
                 <StringItem index="1" value="Argentina"/>
                 <StringItem index="2" value="Brazil"/>
                 <StringItem index="3" value="Canada"/>
                 <StringItem index="4" value="Dominican Republic"/>
-                <StringItem index="5" value="Ecuador"/>
-                <StringItem index="6" value="France"/>
-                <StringItem index="7" value="Germany"/>
-                <StringItem index="8" value="Haiti"/>
-                <StringItem index="9" value="Ireland"/>
-                <StringItem index="10" value="Japan"/>
-                <StringItem index="11" value="Kenya"/>
-                <StringItem index="12" value="Libya"/>
-                <StringItem index="13" value="Mexico"/>
-                <StringItem index="14" value="Netherlands"/>
-                <StringItem index="15" value="Oman"/>
-                <StringItem index="16" value="Paraguay"/>
-                <StringItem index="17" value="Qatar"/>
-                <StringItem index="18" value="Rwanda"/>
-                <StringItem index="19" value="Serbia"/>
-                <StringItem index="20" value="South Korea"/>
-                <StringItem index="21" value="Thailand"/>
-                <StringItem index="22" value="Turkey"/>
-                <StringItem index="23" value="Ukraine"/>
-                <StringItem index="24" value="United States"/>
-                <StringItem index="25" value="Vietnam"/>
-                <StringItem index="26" value="Western Sahara"/>
-                <StringItem index="27" value="Yemen"/>
-                <StringItem index="28" value="Zimbabwe"/>
+                <StringItem index="5" value="France"/>
+                <StringItem index="6" value="Haiti"/>
+                <StringItem index="7" value="Japan"/>
+                <StringItem index="8" value="Kenya"/>
+                <StringItem index="9" value="Libya"/>
+                <StringItem index="10" value="Mexico"/>
+                <StringItem index="11" value="Oman"/>
+                <StringItem index="12" value="Paraguay"/>
+                <StringItem index="13" value="Qatar"/>
+                <StringItem index="14" value="Rwanda"/>
+                <StringItem index="15" value="Serbia"/>
+                <StringItem index="16" value="South Korea"/>
+                <StringItem index="17" value="Thailand"/>
+                <StringItem index="18" value="Turkey"/>
+                <StringItem index="19" value="Ukraine"/>
+                <StringItem index="20" value="United States"/>
+                <StringItem index="21" value="Vietnam"/>
+                <StringItem index="22" value="Western Sahara"/>
+                <StringItem index="23" value="Yemen"/>
+                <StringItem index="24" value="Zimbabwe"/>
               </StringArray>
             </Property>
           </Properties>
