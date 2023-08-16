@@ -16,16 +16,12 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         "BRL",
         "CAD",
         "DOP",
-        "USD",
-        "EUR",
         "EUR",
         "HTG",
-        "EUR",
         "JPY",
         "KES",
         "LYD",
         "MXN",
-        "EUR",
         "OMR",
         "PYG",
         "QAR",
@@ -42,34 +38,30 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         "ZWD"        
     };
     
-//        double argentinePesos =444.86;
-//        double brazilianReais =6.30;
-//        double canadianDollars =1.71;
-//        double dominicanPesos =72.55;
-//        double ecuadorUsDollars =1.27;
-//        double franceEuros =1.16;
-//        double germanyEuros =1.16;
-//        double haitianGourdes =174.15;
-//        double irelandEuros =1.16;
-//        double japaneseYen =184.98;
-//        double kenyanShillings =182.89;
-//        double LYD =;
-//        double MXN =;
-//        double EUR4 =1.16;
-//        double OMR =;
-//        double PYG =;
-//        double QAR =;
-//        double RWF =;
-//        double RSD =;
-//        double KRW =;
-//        double THB =;
-//        double TRY =;
-//        double UAH =;
-//        double USD =1.27;
-//        double VND =;
-//        double MAD =;
-//        double YER =;
-//        double ZWD =;
+        double argentinePesos =444.86;
+        double brazilianReais =6.30;
+        double canadianDollars =1.71;
+        double dominicanPesos =72.55;
+        double franceEuros =1.16;
+        double haitianGourdes =174.15;
+        double japaneseYen =184.98;
+        double kenyanShillings =182.89;
+        double libyanDinars =6.12;
+        double mexicanPesos =21.75;
+        double omaniRials =0.48;
+        double paraguayanGuarani =9234.10;
+        double qatariRials =4.62;
+        double rwandanFrancs =1505.74;
+        double serbianDinars =136.51;
+        double kouthKoreanWon =1700.41;
+        double thaiBaht =44.97;
+        double turkishLire =34.36;
+        double ukrainianHryvni =46.89;
+        double uSDollars =1.27;
+        double vietnameseDongs =30361.10;
+        double moroccanDirhams =12.55;
+        double yemeniRials =317.89;
+        double zimbabweanDollars =459.51;
 
     /**
      * Creates new form CurrencyConvererter
@@ -118,7 +110,7 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         jLabel3.setText("To Currency Of");
 
         firstCountry.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        firstCountry.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose One...", "Argentina", "Brazil", "Canada", "Dominican Republic", "Ecuador", "France", "Germany", "Haiti", "Ireland", "Japan", "Kenya", "Libya", "Mexico", "Netherlands", "Oman", "Paraguay", "Qatar", "Rwanda", "Serbia", "South Korea", "Thailand", "Turkey", "Ukraine", "United States", "Vietnam", "Western Sahara", "Yemen", "Zimbabwe" }));
+        firstCountry.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose One...", "Argentina", "Brazil", "Canada", "Dominican Republic", "France", "Haiti", "Japan", "Kenya", "Libya", "Mexico", "Oman", "Paraguay", "Qatar", "Rwanda", "Serbia", "South Korea", "Thailand", "Turkey", "Ukraine", "United States", "Vietnam", "Western Sahara", "Yemen", "Zimbabwe" }));
         firstCountry.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 firstCountryItemStateChanged(evt);
@@ -126,7 +118,7 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         });
 
         secondCountry.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        secondCountry.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose One...", "Argentina", "Brazil", "Canada", "Dominican Republic", "Ecuador", "France", "Germany", "Haiti", "Ireland", "Japan", "Kenya", "Libya", "Mexico", "Netherlands", "Oman", "Paraguay", "Qatar", "Rwanda", "Serbia", "South Korea", "Thailand", "Turkey", "Ukraine", "United States", "Vietnam", "Western Sahara", "Yemen", "Zimbabwe" }));
+        secondCountry.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose One...", "Argentina", "Brazil", "Canada", "Dominican Republic", "France", "Haiti", "Japan", "Kenya", "Libya", "Mexico", "Oman", "Paraguay", "Qatar", "Rwanda", "Serbia", "South Korea", "Thailand", "Turkey", "Ukraine", "United States", "Vietnam", "Western Sahara", "Yemen", "Zimbabwe" }));
         secondCountry.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 secondCountryItemStateChanged(evt);
@@ -272,6 +264,20 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         double amountToChange = Double.parseDouble(t1.getText());
         double amountInPounds = 0.0;
         
+        switch(firstCountry.getSelectedItem().toString())
+        {
+            case "ARS": amountInPounds = amountToChange / argentinePesos;break;
+        }
+        
+        double amountChanged = 0.0;
+        switch(secondCountry.getSelectedItem().toString())
+        {
+            case "BRL": amountChanged = amountInPounds * brazilianReais;
+            case "RWF": amountChanged = amountInPounds * rwandanFrancs;
+        }
+        
+        String value = String.format("%.2f", amountChanged);
+        t2.setText(value);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
