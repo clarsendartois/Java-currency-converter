@@ -350,77 +350,77 @@ public class CurrencyConvererter extends javax.swing.JFrame {
                         case "Argentina":
                                 amountInPounds = amountToChange / argentinePesos;
                                 break;
-                        case "Brazil":
-                                amountInPounds = amountToChange / brazilianReais;
-                                break;
-                        case "Canada":
-                                amountInPounds = amountToChange / canadianDollars;
-                                break;
-                        case "Dominican Republic":
-                                amountInPounds = amountToChange / dominicanPesos;
-                                break;
-                        case "France":
-                                amountInPounds = amountToChange / franceEuros;
-                                break;
-                        case "Haiti":
-                                amountInPounds = amountToChange / haitianGourdes;
-                                break;
-                        case "Japan":
-                                amountInPounds = amountToChange / japaneseYen;
-                                break;
-                        case "Kenya":
-                                amountInPounds = amountToChange / kenyanShillings;
-                                break;
-                        case "Libya":
-                                amountInPounds = amountToChange / libyanDinars;
-                                break;
-                        case "Mexico":
-                                amountInPounds = amountToChange / mexicanPesos;
-                                break;
-                        case "Oman":
-                                amountInPounds = amountToChange / omaniRials;
-                                break;
-                        case "Paraguay":
-                                amountInPounds = amountToChange / paraguayanGuarani;
-                                break;
-                        case "Qatar":
-                                amountInPounds = amountToChange / qatariRials;
-                                break;
-                        case "Rwanda":
-                                amountInPounds = amountToChange / rwandanFrancs;
-                                break;
-                        case "Serbia":
-                                amountInPounds = amountToChange / serbianDinars;
-                                break;
-                        case "South Korea":
-                                amountInPounds = amountToChange / kouthKoreanWon;
-                                break;
-                        case "Thailand":
-                                amountInPounds = amountToChange / thaiBaht;
-                                break;
-                        case "Turkey":
-                                amountInPounds = amountToChange / turkishLire;
-                                break;
-                        case "Ukraine":
-                                amountInPounds = amountToChange / ukrainianHryvni;
-                                break;
-                        case "United States":
-                                amountInPounds = amountToChange / uSDollars;
-                                break;
-                        case "Vietnam":
-                                amountInPounds = amountToChange / vietnameseDongs;
-                                break;
-                        case "Western Sahara":
-                                amountInPounds = amountToChange / moroccanDirhams;
-                                break;
-                        case "Yemen":
-                                amountInPounds = amountToChange / yemeniRials;
-                                break;
-                        case "Zimbabwe":
-                                amountInPounds = amountToChange / zimbabweanDollars;
-                                break;
-                        default:
-                                amountInPounds = 0.0;
+                        // case "Brazil":
+                        // amountInPounds = amountToChange / brazilianReais;
+                        // break;
+                        // case "Canada":
+                        // amountInPounds = amountToChange / canadianDollars;
+                        // break;
+                        // case "Dominican Republic":
+                        // amountInPounds = amountToChange / dominicanPesos;
+                        // break;
+                        // case "France":
+                        // amountInPounds = amountToChange / franceEuros;
+                        // break;
+                        // case "Haiti":
+                        // amountInPounds = amountToChange / haitianGourdes;
+                        // break;
+                        // case "Japan":
+                        // amountInPounds = amountToChange / japaneseYen;
+                        // break;
+                        // case "Kenya":
+                        // amountInPounds = amountToChange / kenyanShillings;
+                        // break;
+                        // case "Libya":
+                        // amountInPounds = amountToChange / libyanDinars;
+                        // break;
+                        // case "Mexico":
+                        // amountInPounds = amountToChange / mexicanPesos;
+                        // break;
+                        // case "Oman":
+                        // amountInPounds = amountToChange / omaniRials;
+                        // break;
+                        // case "Paraguay":
+                        // amountInPounds = amountToChange / paraguayanGuarani;
+                        // break;
+                        // case "Qatar":
+                        // amountInPounds = amountToChange / qatariRials;
+                        // break;
+                        // case "Rwanda":
+                        // amountInPounds = amountToChange / rwandanFrancs;
+                        // break;
+                        // case "Serbia":
+                        // amountInPounds = amountToChange / serbianDinars;
+                        // break;
+                        // case "South Korea":
+                        // amountInPounds = amountToChange / kouthKoreanWon;
+                        // break;
+                        // case "Thailand":
+                        // amountInPounds = amountToChange / thaiBaht;
+                        // break;
+                        // case "Turkey":
+                        // amountInPounds = amountToChange / turkishLire;
+                        // break;
+                        // case "Ukraine":
+                        // amountInPounds = amountToChange / ukrainianHryvni;
+                        // break;
+                        // case "United States":
+                        // amountInPounds = amountToChange / uSDollars;
+                        // break;
+                        // case "Vietnam":
+                        // amountInPounds = amountToChange / vietnameseDongs;
+                        // break;
+                        // case "Western Sahara":
+                        // amountInPounds = amountToChange / moroccanDirhams;
+                        // break;
+                        // case "Yemen":
+                        // amountInPounds = amountToChange / yemeniRials;
+                        // break;
+                        // case "Zimbabwe":
+                        // amountInPounds = amountToChange / zimbabweanDollars;
+                        // break;
+                        // default:
+                        // amountInPounds = 0.0;
                 }
 
                 double amountChanged = 0.0;
@@ -429,50 +429,50 @@ public class CurrencyConvererter extends javax.swing.JFrame {
                                 amountChanged = amountInPounds * argentinePesos;
                         case "Brazil":
                                 amountChanged = amountInPounds * brazilianReais;
-                        case "Canada":
-                                amountChanged = amountInPounds * canadianDollars;
-                        case "Dominican Republic":
-                                amountChanged = amountInPounds * dominicanPesos;
-                        case "France":
-                                amountChanged = amountInPounds * franceEuros;
-                        case "Haiti":
-                                amountChanged = amountInPounds * haitianGourdes;
-                        case "Japan":
-                                amountChanged = amountInPounds * japaneseYen;
-                        case "Kenya":
-                                amountChanged = amountInPounds * kenyanShillings;
-                        case "Libya":
-                                amountChanged = amountInPounds * libyanDinars;
-                        case "Mexico":
-                                amountChanged = amountInPounds * mexicanPesos;
-                        case "Oman":
-                                amountChanged = amountInPounds * omaniRials;
-                        case "Paraguay":
-                                amountChanged = amountInPounds * paraguayanGuarani;
-                        case "Qatar":
-                                amountChanged = amountInPounds * qatariRials;
-                        case "Rwanda":
-                                amountChanged = amountInPounds * rwandanFrancs;
-                        case "Serbia":
-                                amountChanged = amountInPounds * serbianDinars;
-                        case "South Korea":
-                                amountChanged = amountInPounds * kouthKoreanWon;
-                        case "Thailand":
-                                amountChanged = amountInPounds * thaiBaht;
-                        case "Turkey":
-                                amountChanged = amountInPounds * turkishLire;
-                        case "Ukraine":
-                                amountChanged = amountInPounds * ukrainianHryvni;
-                        case "United States":
-                                amountChanged = amountInPounds * uSDollars;
-                        case "Vietnam":
-                                amountChanged = amountInPounds * vietnameseDongs;
-                        case "Western Sahara":
-                                amountChanged = amountInPounds * moroccanDirhams;
-                        case "Yemen":
-                                amountChanged = amountInPounds * yemeniRials;
-                        case "Zimbabwe":
-                                amountChanged = amountInPounds * zimbabweanDollars;
+                                // case "Canada":
+                                // amountChanged = amountInPounds * canadianDollars;
+                                // case "Dominican Republic":
+                                // amountChanged = amountInPounds * dominicanPesos;
+                                // case "France":
+                                // amountChanged = amountInPounds * franceEuros;
+                                // case "Haiti":
+                                // amountChanged = amountInPounds * haitianGourdes;
+                                // case "Japan":
+                                // amountChanged = amountInPounds * japaneseYen;
+                                // case "Kenya":
+                                // amountChanged = amountInPounds * kenyanShillings;
+                                // case "Libya":
+                                // amountChanged = amountInPounds * libyanDinars;
+                                // case "Mexico":
+                                // amountChanged = amountInPounds * mexicanPesos;
+                                // case "Oman":
+                                // amountChanged = amountInPounds * omaniRials;
+                                // case "Paraguay":
+                                // amountChanged = amountInPounds * paraguayanGuarani;
+                                // case "Qatar":
+                                // amountChanged = amountInPounds * qatariRials;
+                                // case "Rwanda":
+                                // amountChanged = amountInPounds * rwandanFrancs;
+                                // case "Serbia":
+                                // amountChanged = amountInPounds * serbianDinars;
+                                // case "South Korea":
+                                // amountChanged = amountInPounds * kouthKoreanWon;
+                                // case "Thailand":
+                                // amountChanged = amountInPounds * thaiBaht;
+                                // case "Turkey":
+                                // amountChanged = amountInPounds * turkishLire;
+                                // case "Ukraine":
+                                // amountChanged = amountInPounds * ukrainianHryvni;
+                                // case "United States":
+                                // amountChanged = amountInPounds * uSDollars;
+                                // case "Vietnam":
+                                // amountChanged = amountInPounds * vietnameseDongs;
+                                // case "Western Sahara":
+                                // amountChanged = amountInPounds * moroccanDirhams;
+                                // case "Yemen":
+                                // amountChanged = amountInPounds * yemeniRials;
+                                // case "Zimbabwe":
+                                // amountChanged = amountInPounds * zimbabweanDollars;
 
                 }
 
