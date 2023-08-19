@@ -4,6 +4,8 @@
  */
 package javacurrencyconverter;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author darto
@@ -328,7 +330,10 @@ public class CurrencyConvererter extends javax.swing.JFrame {
         }// GEN-LAST:event_t2ActionPerformed
 
         private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton2ActionPerformed
-                // TODO add your handling code here:
+                firstCountry.setSelectedIndex(0);
+                secondCountry.setSelectedIndex(0);
+                t1.setText(null);
+                t2.setText(null);
         }// GEN-LAST:event_jButton2ActionPerformed
 
         private void firstCountryItemStateChanged(java.awt.event.ItemEvent evt) {// GEN-FIRST:event_firstCountryItemStateChanged
@@ -343,6 +348,14 @@ public class CurrencyConvererter extends javax.swing.JFrame {
 
         private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton1ActionPerformed
                 // Convert Currency
+
+                if (firstCountry.getSelectedIndex() == 0 || secondCountry.getSelectedIndex() == 0
+                                || t1.getText().equals("")) {
+                        JOptionPane.showMessageDialog(null, "You must select both countries and add the amount.",
+                                        "Error message",
+                                        JOptionPane.INFORMATION_MESSAGE);
+                        return;
+                }
                 double amountToChange = Double.parseDouble(t1.getText());
                 double amountInPounds = 0.0;
                 double amountChanged = 0.0;
